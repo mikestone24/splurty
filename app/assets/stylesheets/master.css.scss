@@ -1,3 +1,4 @@
+
 .clear {
 	clear:both;
 }
@@ -20,6 +21,14 @@
     -ms-transform:rotate(230deg); /* IE 9 */
     -webkit-transform:rotate(230deg); /* Opera, Chrome, and Safari */
 }
+h1 {
+	font-family: 'intro_script_rh2_base', sans-serif;
+	font-weight:bold;
+	 font-size:48px;
+}
+h2 {
+	font-family: 'cantarelloblique', sans-serif;
+}
 .slogan
 {
 	font-family: "Segoe UI", Candara, "Bitstream Vera Sans", "DejaVu Sans", "Bitstream Vera Sans", "Trebuchet MS", Verdana, "Verdana Ref", sans-serif;
@@ -32,6 +41,8 @@
 }
 
 .links a {
+	font-family: 'cantarellregular';
+	font-weight: bold;
 	color:black;
 	font-size:25px;
 	border-bottom: 1px solid #dfdfdf;
