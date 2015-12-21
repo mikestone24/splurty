@@ -28,8 +28,19 @@
 	</header>
 	<hr />
 	<br class="clear" />
+	<div class="container">
+		<%= yield %>
+	</div>
 
-<%= yield %>
-
+	<div class="footer">
+		<div class="container">
+			<div class="col-xs-6 footer-blurb" >
+				 <%= link_to "Gimme moar quotes" , "#" , :class => 'next-quote' %>
+			</div>
+			<div class="col-xs-6">
+				Created by <a href='https://www.linkedin.com/in/mikestone24'>Mike Stone</a> (:  
+			</div>
+		</div>
+	</div>
 </body>
 </html>
