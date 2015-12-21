@@ -22,7 +22,7 @@
     -webkit-transform:rotate(230deg); /* Opera, Chrome, and Safari */
 }
 h1 {
-	font-family: 'intro_script_rh2_base', sans-serif;
+	font-family: 'cantarellregular', sans-serif;
 	font-weight:bold;
 	 font-size:48px;
 }
@@ -51,7 +51,9 @@ h2 {
 .links {
 	padding-top:26px;
 }
-
+.logo:hover {
+	text-decoration:none;
+}
 .links a {
 	font-family: 'cantarellregular';
 	font-weight: bold;
